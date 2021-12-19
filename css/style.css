@@ -1,0 +1,10 @@
+:before,
+:after {
+    box-sizing: border-box;
+}
+form{
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    width: 180px;
+    height: 300px;
+}
