@@ -26,7 +26,8 @@
     <fieldset class = "account-info">
 <form action = "/login" method = "post">
    <span id="header" class="header">Create an Intuit account</span>
-   <span id = "text" class = "text"> One account for everything Intuit, including Mint. Learn more</span>
+   <span id = "subheader" class = "subheader"></span>
+   <span id = "text" class = "text"> One account for everything Intuit, including Mint. <a href = "">Learn more.</a></span>
 
     <label>
         Email address
@@ -35,13 +36,14 @@
     <label>
         Phone(recommended)
         <input type = "text" name = "phone-number" required>
+        <span id = "Standard" class = "Standard">Standard call, messaging or data rates may apply.</span>
     </label>
     <label>
         Password
         <input type = "password" name = "password" required>
     </label>
 </fieldset>
-<span>Standard call, messaging or data rates may apply.</span>
+
 <fieldset class="account-action">
     <input class="btn" type="submit" name="submit" value="Create Account">
     <label>
