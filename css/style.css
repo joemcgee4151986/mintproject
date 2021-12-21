@@ -1,9 +1,8 @@
-:before,
-:after {
 
-}
+
+
 form{
-   
+  height: 80%;
 width: 320px;
 
 padding-left: 8px;
@@ -81,10 +80,10 @@ height: 44px;
 
   .header{
     color: #393A3D;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.1;
     font-size: 24px;
-    font-family: "AvenirNext", "Avenir", "Helvetica Neue", "Helvetica", "Arial", "sans-se";
+font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: block;
     box-sizing: border-box;
 margin: 0;
@@ -107,18 +106,18 @@ text-align: left;
 font-family: "AvenirNext", "Avenir", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 }
 .terms{
-    box-sizing: border-box;
-margin: 0;
-padding: 0;
-outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
 text-align: center;
 font-size: 12px;
-font-style: italic;
-color: #757575;
+    font-style: italic;
+    color: #757575;
 font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 14px;
 font-weight: normal;
 line-height: 1.5;
+
 }
   .Standard{
     line-height: 1.5;
@@ -146,3 +145,102 @@ font-size: 14px;
 line-height: 25px;
 text-align: left;
   }
+  .phone{
+    
+    font-weight: normal;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    display: block;
+    padding-bottom: 6px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: default;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.Email{
+  font-weight: normal;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  display: block;
+  padding-bottom: 6px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  cursor: default;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.Password{
+  font-weight: normal;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  display: block;
+  padding-bottom: 6px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  cursor: default;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+  .brand{
+    background-position: 0 0;
+    width: 118px;
+    height: 35px;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/scripts/../images/ecosystem_logos_new-0b45bf36..png);
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+   
+   
+    cursor: pointer;
+    list-style: none;
+    list-style-image: none;
+    text-align: center;
+    opacity: 1;
+}
+.logos{
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+}
+  .mint1{
+   
+    width: 68px;
+    height: 25px;
+    background-image: url(https://pklepa.github.io/form-clone/assets/intuitAssetPack.png);
+    background-position: 310px 27px;
+    cursor: pointer;
+    margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+font: inherit;
+    letter-spacing: 0.1px;
+color: #4c4c4c;
+}
+  
